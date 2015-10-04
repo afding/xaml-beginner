@@ -18,9 +18,9 @@
             <ColumnDefinition Width="0.5*" />
         </Grid.ColumnDefinitions>
 
-        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Restaurant Manager" Foreground="White" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontSize="42.667" />
-        <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="Internal Test Version" Foreground="White" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontSize="21.333" />
-        <TextBlock Grid.Row="2" Grid.Column="0" Text="**Go to Orders View**" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="32" />
-        <TextBlock Grid.Row="2" Grid.Column="1" Text="**Submit Order**" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="32" />
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Restaurant Manager" Foreground="White" VerticalAlignment="Bottom" HorizontalAlignment="Center" />
+        <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="Internal Test Version" Foreground="White" VerticalAlignment="Bottom" HorizontalAlignment="Center" FontSize="20"/>
+        <Button Grid.Row="2" Grid.Column="0" Content="Go to Orders View" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" Click="ExpeditePage_Click" />
+        <Button Grid.Row="2" Grid.Column="1" Content="Submit Order" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" Click="OrderPage_Click"/>
     </Grid>
 </Page>
